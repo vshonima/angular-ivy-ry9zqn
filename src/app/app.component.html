@@ -1,0 +1,19 @@
+<ag-grid-angular
+    style="width: 60%; height: 100%;"
+    class="ag-theme-alpine"
+    [columnDefs]="columnDefs"
+    [defaultColDef]="defaultColDef"
+    [masterDetail]="true"
+    [detailCellRendererParams]="detailCellRendererParams"
+    [rowData]="rowData"
+    [pagination]="true"
+    [paginationAutoPageSize]="true"
+    (firstDataRendered)="onFirstDataRendered($event)"
+    (gridReady)="onGridReady($event)"
+  ></ag-grid-angular>
+  
+ <br>
+
+
+
+ 
